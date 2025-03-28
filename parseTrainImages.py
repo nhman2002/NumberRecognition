@@ -30,7 +30,7 @@ if not os.path.exists(datas_root):
     os.mkdir(datas_root)
     
 for id in range(10):
-    fileName = datas_root + os.sep + str(i)
+    fileName = datas_root + os.sep + str(id)
     if not os.path.exists(fileName):
         os.mkdir(fileName)
         
